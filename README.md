@@ -50,7 +50,7 @@ WordQuest is a lightweight vocabulary quiz application:
 
 ## 🛠️ Installation
 
-Clone and run with Maven:
+Clone and run:
 
 ```bash
 # 1. Clone repository
