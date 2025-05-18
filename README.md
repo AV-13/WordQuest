@@ -97,5 +97,5 @@ dog;chien;canidé;molosse;cabot
 ```
 The ComboBox will include every column after the first.
 
-📸 Screenshots
+## 📸 Screenshots
 <div align="center"> <img src="docs/screenshot_start.png" alt="Start View" width="280" /> <img src="docs/screenshot_game_wordquest.png" alt="Quiz View" width="280" /> &nbsp;&nbsp; <img src="docs/screenshot_score.png" alt="Score View" width="280" /> </div>
