@@ -44,7 +44,7 @@ WordQuest is a lightweight vocabulary quiz application:
 ## ⚙️ Prerequisites
 
 - Java Development Kit (JDK) 17 or higher  
-- An IDE that supports Java and Maven (IntelliJ IDEA, VS Code, etc.)
+- An IDE that supports Java (IntelliJ IDEA, VS Code, etc.)
 
 ---
 
