@@ -1,0 +1,53 @@
+.start-root {
+    -fx-background-image: url("alphabet_background.jpg");
+
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-color:
+            linear-gradient(rgba(44,62,80,0.7), rgba(76,161,175,0.7)),
+            transparent;
+}
+
+.overlay {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-pref-width: 600;
+    -fx-pref-height: 400;
+}
+
+.game-title {
+    -fx-font-family: "Segoe UI Black", Arial, sans-serif;
+    -fx-font-size: 48px;
+    -fx-text-fill: #FFD54F;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.8), 8, 0, 0, 4 );
+}
+
+.cta-button {
+    -fx-background-color: #29B6F6;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 30;
+    -fx-background-radius: 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.6), 6, 0, 0, 3 );
+}
+.cta-button:hover {
+    -fx-background-color: #0288D1;
+}
+.cta-button:pressed {
+    -fx-background-color: #0277BD;
+    -fx-translate-y: 2;
+    -fx-effect: none;
+}
+.logo-bg {
+    -fx-pref-width: 120px;
+    -fx-pref-height: 120px;
+    -fx-background-image: url("icon_without_bg.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: contain;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 8, 0,0,2);
+    -fx-padding: 10;
+}

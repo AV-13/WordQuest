@@ -1,0 +1,103 @@
+.quiz-root {
+    -fx-background-image: url("alphabet_background.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color:
+            linear-gradient(rgba(44,62,80,0.7), rgba(76,161,175,0.7)),
+            transparent;
+}
+
+.overlay {
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-max-width: Infinity;
+    -fx-max-height: Infinity;
+}
+
+.quiz-title {
+    -fx-font-family: "Segoe UI Black", Arial, sans-serif;
+    -fx-font-size: 32px;
+    -fx-text-fill: #FFD54F;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.8), 6, 0, 0, 3 );
+}
+
+.table-view {
+    -fx-border-color: #B0BEC5;
+    -fx-border-width: 1;
+    -fx-max-width: 580px;
+    -fx-pref-width: 580px;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to bottom, #81D4FA, #4FC3F7);
+    -fx-background-radius: 6 6 0 0;
+}
+
+.table-view .column-header,
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+}
+
+.table-view .table-row-cell {
+    -fx-cell-size: 35px;
+    -fx-padding: 0 12;
+}
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  #4FC3F7;
+}
+.table-view .table-row-cell:even{
+    -fx-background-color: #FFFFFF;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #F5F8FA;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: rgba(79,195,247,0.3);
+}
+
+.table-view .table-cell {
+    -fx-font-size: 16px;
+    -fx-alignment: CENTER;
+    -fx-text-fill: #37474F;
+    -fx-border-color: #ECEFF1;
+    -fx-border-width: 0 0 1 0;
+}
+.table-view .combo-box {
+    -fx-pref-width: 100px;
+}
+
+/* source : https://stackoverflow.com/questions/43967887/how-to-customize-javafx-scrollbar-thumb-thickness-by-css*/
+.table-view .scroll-bar {
+    -fx-font-size: 5px;
+}
+.table-view .scroll-bar:vertical .thumb,
+.table-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: derive(#4FC3F7, -10%);
+    -fx-background-radius: 4px;
+}
+
+.table-view .scroll-bar:vertical .track,
+.table-view .scroll-bar:horizontal .track {
+    -fx-background-color: transparent;
+    -fx-border-color: derive(#4FC3F7, 80%);
+    -fx-border-radius: 4px;
+}
+
+.cta-button {
+    -fx-background-color: #29B6F6;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 30;
+    -fx-background-radius: 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.6), 6, 0, 0, 3 );
+}

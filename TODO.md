@@ -1,0 +1,4 @@
+- Faire revenir le texte à la ligne dans l'affichage du score.
+- Afficher le nombre de questions non répondues + le score / le nombre de réponses
+- Faire le diagramme de classe
+- Ajouter la manière de faire de Daniel

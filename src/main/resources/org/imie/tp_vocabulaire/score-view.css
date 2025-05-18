@@ -1,0 +1,51 @@
+.score-root {
+    -fx-background-image: url("alphabet_background.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color:
+            linear-gradient(rgba(44,62,80,0.7), rgba(76,161,175,0.7)),
+            transparent;
+}
+
+.overlay {
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-max-width: Infinity;
+    -fx-max-height: Infinity;
+}
+
+.score-label-smaller {
+    -fx-font-family: "Segoe UI Black", Arial, sans-serif;
+    -fx-font-size: 26px;
+    -fx-text-fill: #FFEB3B;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.8), 8, 0, 0, 4 );
+}
+.score-label {
+    -fx-font-family: "Segoe UI Black", Arial, sans-serif;
+    -fx-font-size: 40px;
+    -fx-text-fill: #FFEB3B;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.8), 8, 0, 0, 4 );
+}
+.score {
+    -fx-font-family: "Segoe UI Black", Arial, sans-serif;
+    -fx-font-size: 40px;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.8), 8, 0, 0, 4 );
+}
+.cta-button {
+    -fx-background-color: #29B6F6;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 30;
+    -fx-background-radius: 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.6), 6, 0, 0, 3 );
+}
+.cta-button:hover {
+    -fx-background-color: #0288D1;
+}
+.cta-button:pressed {
+    -fx-background-color: #0277BD;
+    -fx-translate-y: 2;
+    -fx-effect: none;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane prefHeight="400" prefWidth="600" styleClass="quiz-root" stylesheets="@quiz-view.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.imie.tp_vocabulaire.QuizController">
+    <Region styleClass="overlay" />
+
+    <VBox alignment="CENTER" spacing="20">
+        <Label styleClass="quiz-title" text="WordQuest Quiz" />
+        <TableView fx:id="tableView" editable="true" prefHeight="260" prefWidth="500" styleClass="table-view">
+            <columns>
+                <TableColumn fx:id="colLangOne" prefWidth="275" text="Anglais" />
+                <TableColumn fx:id="colLangTwo" prefWidth="275" text="Français" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnValidate" onAction="#onValidateQuizClick" styleClass="cta-button" text="Valider" />
+    </VBox>
+</StackPane>
