@@ -1,6 +1,8 @@
 # 🎓 WordQuest
 
-![Project Logo](src/main/resources/org/imie/tp_vocabulaire/favicon.png)
+<p align="center">
+  <img src="src/main/resources/org/imie/tp_vocabulaire/favicon.png" alt="Project Logo" width="400"/>
+</p>
 
 > **WordQuest** — an open-source educational game for vocabulary learning, built with JavaFX.
 
@@ -14,9 +16,7 @@
 - [Installation](#installation)  
 - [Usage](#usage)  
 - [CSV Format](#csv-format)  
-- [Screenshots](#screenshots)  
-- [Contributing](#contributing)  
-- [License](#license)  
+- [Screenshots](#screenshots)
 
 ---
 
@@ -95,7 +95,7 @@ cat;chat;félin;minou;matou
 dog;chien;canidé;molosse;cabot
 …etc.
 ```
-    The ComboBox will include every column after the first.
+The ComboBox will include every column after the first.
 
 📸 Screenshots
-<div align="center"> <img src="docs/screenshot-start.png" alt="Start View" width="280" /> &nbsp;&nbsp; <img src="docs/screenshot-quiz.png" alt="Quiz View" width="280" /> &nbsp;&nbsp; <img src="docs/screenshot-score.png" alt="Score View" width="280" /> </div>
+<div align="center"> <img src="docs/screenshot_start.png" alt="Start View" width="280" /> <img src="docs/screenshot_game_wordquest.png" alt="Quiz View" width="280" /> &nbsp;&nbsp; <img src="docs/screenshot_score.png" alt="Score View" width="280" /> </div>
