@@ -60,6 +60,8 @@ cd wordquest
 # 3. In the “Project” view, right-click MainApp.java → Run 'MainApp.main()'
 ```
 
+---
+
 ## 💻 Usage
 ```bash
 # 1. Click “Load CSV” on the start screen.
@@ -72,6 +74,9 @@ cd wordquest
 
 # 5. Use “Restart” to clear your answers or “New CSV” to load another file.
 ```
+
+---
+
 ## 📑 CSV Format
 
 Your file must follow one of these two patterns:
@@ -96,6 +101,8 @@ dog;chien;canidé;molosse;cabot
 …etc.
 ```
 The ComboBox will include every column after the first.
+
+---
 
 ## 📸 Screenshots
 <div align="center"> <img src="docs/screenshot_start.png" alt="Start View" width="280" /> <img src="docs/screenshot_game_wordquest.png" alt="Quiz View" width="280" /> &nbsp;&nbsp; <img src="docs/screenshot_score.png" alt="Score View" width="280" /> </div>
